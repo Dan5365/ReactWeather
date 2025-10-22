@@ -1,16 +1,74 @@
-# React + Vite
+# ReactWeather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Простой проект на React, который получает и отображает информацию о погоде через API.
 
-Currently, two official plugins are available:
+## Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ReactWeather позволяет пользователю ввести название города и получить актуальные данные о погоде:
 
-## React Compiler
+Температура
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Погодные условия (облачно, солнечно и т.д.)
 
-## Expanding the ESLint configuration
+Влажность
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Скорость ветра
+
+Проект демонстрирует работу с React, использованием fetch/axios для обращения к внешнему API и отображение данных на интерфейсе.
+
+## Технологии
+
+React (фронтенд)
+
+JavaScript / JSX
+
+CSS (для стилизации)
+
+OpenWeatherMap API (или другой погодный API)
+
+## Установка
+
+Клонировать репозиторий:
+
+git clone https://github.com/Dan5365/ReactWeather.git
+cd ReactWeather
+
+
+Установить зависимости:
+
+npm install
+
+
+Создать .env файл с ключом API (если используется OpenWeatherMap):
+
+REACT_APP_WEATHER_API_KEY=ваш_api_ключ
+
+
+Запустить проект:
+
+npm start
+
+
+Проект будет доступен по адресу: http://localhost:3000
+
+## Использование
+
+Введите название города в поисковую строку.
+
+Нажмите кнопку “Search” или Enter.
+
+Данные о погоде появятся на экране.
+
+## Структура проекта
+src/
+  components/   # Компоненты React
+  App.js        # Главный компонент
+  index.js      # Точка входа
+
+## Возможности для улучшения
+
+Добавить отображение прогнозов на несколько дней.
+
+Улучшить дизайн интерфейса.
+
+Добавить локализацию для разных языков.
