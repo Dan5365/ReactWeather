@@ -72,3 +72,7 @@ src/
 Улучшить дизайн интерфейса.
 
 Добавить локализацию для разных языков.
+
+## Скриншоты: 
+<img width="954" height="606" alt="{DE205B77-56BD-4D58-85BF-C4AB40CCEE0F}" src="https://github.com/user-attachments/assets/ee2fa779-a977-420d-a913-b83b83cb5776" />
+
